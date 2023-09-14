@@ -1012,7 +1012,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['people'],
       web: []
     };
     
@@ -1028,11 +1028,11 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['one'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['female'];
           break;
       }
     }
